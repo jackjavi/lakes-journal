@@ -1,0 +1,17 @@
+.home {
+  width: 550px;
+  height: 704px;
+  margin-left: 200px;
+}
+
+.nav {
+  position: fixed;
+}
+
+.lakes {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

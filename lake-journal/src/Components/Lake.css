@@ -1,0 +1,90 @@
+.lake {
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.lake-data {
+  width: 470px;
+  height: 168px;
+  display: flex;
+  gap: 19px;
+  padding: 25px;
+  box-shadow: 2px 2px 7px gainsboro;
+  border-radius: 10px;
+}
+
+.lake-img {
+  height: 168px;
+  border-radius: 5px;
+}
+
+.info-p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.location-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: rgba(43, 40, 58, 1);
+}
+
+.location-link {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 10.24px;
+  font-family: "Inter";
+  line-height: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: rgba(145, 142, 155, 1);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  color: #2b283a;
+  font-size: 10px;
+}
+
+.rating-icon {
+  color: brown;
+  transform: scale(0.7);
+  display: flex;
+  align-items: center;
+}
+
+.lake-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: #2b283a;
+}
+
+.lake-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  /* or 15px */
+
+  color: #2b283a;
+}
